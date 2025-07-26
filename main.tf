@@ -44,7 +44,7 @@ resource "azurerm_key_vault" "tp2kv" {
 #   length = 2
 # }
 
-# resource "azurerm_key_vault_secret" "username" {
+# resource "azurerm_key_vault_secret" "username1" {
 #   for_each = var.key_volt_map
 #   name         = "${each.value.vm_name}-username"
 #   value        = random_pet.random_username.id
